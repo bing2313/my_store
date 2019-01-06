@@ -30,14 +30,21 @@
 
   </div>
 </template>
+<script>
+export default {
+  
+}
+</script>
 
-<style>
+<style lang="scss">
+body{
+  background:#fff !important;
+}
 #app{
   padding-top: 40px;
+  padding-bottom: 50px;
   overflow-x: hidden;
- 
-}
- .cont-enter{
+  .cont-enter{
     opacity: 0;
     transform: translateX(100%);
   }
@@ -51,5 +58,7 @@
   .cont-leave-active{
     position: absolute;
   }
+}
+
 
 </style>
