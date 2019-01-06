@@ -17,7 +17,8 @@ export default new Router({
     { path: '/shopcart', component: shopcart},
     { path: '/prolife', component: prolife},
     { path: '/home/newslist', component: newslist},
-    { path: '/newsinfo/:id', component: newsinfo}
+    { path: '/newsinfo', component: newsinfo}
+    // { path: '/newsinfo/:id', component: newsinfo}
   ],
   linkActiveClass:'mui-active'
 })

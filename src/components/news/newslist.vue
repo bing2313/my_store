@@ -1,7 +1,8 @@
 <template>
   <div class="newslist-box">
     <ul class="mui-table-view">
-				<router-link tag="li" :to="'/newsinfo/'+item.id" class="mui-table-view-cell mui-media" v-for="item in newsinfo" :key="item.id">
+				<router-link tag="li" :to="'/newsinfo?id='+item.id" class="mui-table-view-cell mui-media" v-for="item in newsinfo" :key="item.id">
+				<!-- <router-link tag="li" :to="'/newsinfo/id'+item.id" class="mui-table-view-cell mui-media" v-for="item in newsinfo" :key="item.id"> -->
 					<a href="javascript:;" class="">
 						<img class="mui-media-object mui-pull-left" :src="item.img_url">
 						<div class="mui-media-body">

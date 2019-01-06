@@ -22,7 +22,8 @@ export default {
   data() {
     return {
       // 获取地址栏中的id
-      id: this.$route.params.id,
+      id: this.$route.query.id,
+      // id: this.$route.params.id,
       onenewsinfo: []
     }
   },
