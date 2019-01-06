@@ -3,7 +3,6 @@
     <!-- 头部固定栏 -->
     <mt-header fixed title="vue-冰冰"></mt-header>
 
-
     <!-- 中间内容区域 -->
     <transition name="cont">
       <router-view></router-view>
