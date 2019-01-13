@@ -6,6 +6,9 @@ import shopcart from './components/tabbar/shopcart.vue'
 import prolife from './components/tabbar/prolife.vue'
 import newslist from './components/news/newslist.vue'
 import newsinfo from './components/news/newsinfo.vue'
+import photolist from './components/photos/photolist.vue'
+import photolistinfo from './components/photos/photolistinfo.vue'
+import shoplist from './components/shop/shoplist.vue'
 
 Vue.use(Router)
 
@@ -17,8 +20,11 @@ export default new Router({
     { path: '/shopcart', component: shopcart},
     { path: '/prolife', component: prolife},
     { path: '/home/newslist', component: newslist},
-    { path: '/newsinfo', component: newsinfo}
+    { path: '/newsinfo', component: newsinfo},
     // { path: '/newsinfo/:id', component: newsinfo}
+    { path: '/home/photolist', component: photolist},
+    { path: '/photolist/:id', component: photolistinfo},
+    { path: '/home/shoplist', component: shoplist}
   ],
   linkActiveClass:'mui-active'
 })

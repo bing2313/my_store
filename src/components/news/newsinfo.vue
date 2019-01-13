@@ -44,7 +44,6 @@ export default {
           // 失败
           Toast("获取新闻数据失败");
         }
-        
       })
     }
   }
